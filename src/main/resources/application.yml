@@ -1,3 +1,13 @@
 server:
   port: 8080
   context-path: /demo
+person:
+  name: admin
+  age: 18
+  maps: { str1: 1,str2: 2}
+  lists:
+    - dog
+    - cat
+  dog:
+     name: dog
+     age: 2
